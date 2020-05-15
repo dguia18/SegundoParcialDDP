@@ -134,7 +134,7 @@ namespace Domain.Test.Creational.Test.Prototype.Test
                 clonRagnar.Origen,
                 clonRagnar.IsRey
             };
-            Assert.AreEqual(x, y);
+            Assert.AreNotEqual(x, y);
         }
     }
 }
