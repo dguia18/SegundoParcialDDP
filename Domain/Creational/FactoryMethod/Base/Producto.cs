@@ -1,10 +1,10 @@
 ﻿namespace Domain.Creational.FactoryMethod
 {
-    public class Producto
+    public abstract class Producto
     {
         public string Nombre { get; set; }
         public Especificacion Especificacion { get; set; }
-        public Producto()
+        protected Producto()
         {
 
         }
